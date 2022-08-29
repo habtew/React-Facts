@@ -1,0 +1,57 @@
+.container{
+    width: 550px;
+    background-color: #282D35;
+    margin: 10vh auto 0 auto;
+}
+.nav{
+    background-color: #21222A;
+    height: 91px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-header{
+    margin-right: auto;
+    color: #61DAFB;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.2535px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+}
+.nav-tit{
+    color:  #DEEBF8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+.main{
+    padding: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+.main > h1{
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    
+}
+.main ul> li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-block: 10px;
+
+}
+.main ul> li::marker{
+    color: #61DAFB;
+    font-size: 1.6em;
+}
