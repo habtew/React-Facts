@@ -35,6 +35,8 @@
     font-family: 'Inter';
     font-style: normal;
     color: #FFFFFF;
+    background: url('./src/images/reactjs-icon2.png') no-repeat right;
+
 
 }
 .main > h1{
